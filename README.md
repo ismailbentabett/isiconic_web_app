@@ -5,4 +5,6 @@ isiconic is a website that is orionted for web shoppers who wanna share memories
 
 how to run 
 
-1)service 
+1)server : npm install / npm run dev 
+
+1)server : npm install / npm run serve 
