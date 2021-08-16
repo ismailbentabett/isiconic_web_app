@@ -13,7 +13,6 @@ made with mevn stack (mongodb , vue , node , express)
   
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
