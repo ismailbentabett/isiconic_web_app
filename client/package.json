@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "array-lib": "^0.2.0",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "core-js": "^3.6.5",
     "js-cookie": "^2.2.1",
     "jwt-decode": "^3.1.2",
