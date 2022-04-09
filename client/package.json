@@ -15,7 +15,7 @@
     "jwt-decode": "^3.1.2",
     "mapbox-gl": "^2.1.1",
     "material-design-icons-iconfont": "^6.1.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "secure-ls": "^1.2.6",
     "socket.io-client": "^4.0.0",
     "v-treeview": "^0.2.1",
