@@ -17,7 +17,7 @@
     "express": "^4.17.1",
     "gridfs-stream": "^1.1.1",
     "joi": "^17.4.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "localStorage": "^1.0.4",
     "mongoose": "^5.11.18",
     "morgan": "~1.9.1",
