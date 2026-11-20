@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="isiconic banner">
+  <defs>
+    <clipPath id="clip"><rect width="1280" height="400" rx="24"/></clipPath>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#8B5CF6" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#FFFFFF"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="400" fill="#0B0F19"/>
+    <rect width="1280" height="400" fill="url(#wash)"/>
+    <rect width="1280" height="400" fill="url(#dots)" opacity="0.06"/>
+    <circle cx="224" cy="200" r="210" fill="url(#glow)"/>
+  </g>
+  <g transform="translate(104 80) scale(0.9375)">
+    <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#lg)"/>
+    <path d="M98 104 V92 a30 30 0 0 1 60 0 V104" fill="none" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+    <path d="M70 100 h116 a10 10 0 0 1 10 10 l-6 84 a14 14 0 0 1 -14 13 H80 a14 14 0 0 1 -14 -13 l-6 -84 a10 10 0 0 1 10 -10 Z" fill="#FFFFFF"/>
+    <path d="M128 182 C100 164 96 146 106 136 C114 128 124 130 128 138 C132 130 142 128 150 136 C160 146 156 164 128 182 Z" fill="url(#lg)"/>
+  </g>
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="400" y="178" font-size="72" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">isiconic</text>
+    <text x="400" y="230" font-size="26" font-weight="400" fill="#A1A8B8">Social commerce and a multi-vendor marketplace in one feed.</text>
+    <rect x="400" y="272" width="75" height="38" rx="19" fill="#8B5CF6" fill-opacity="0.10" stroke="url(#lg)" stroke-width="1"/>
+    <text x="438" y="297" text-anchor="middle" font-size="16" font-weight="600" fill="#E5E7EB">Vue 2</text>
+    <rect x="487" y="272" width="90" height="38" rx="19" fill="#8B5CF6" fill-opacity="0.10" stroke="url(#lg)" stroke-width="1"/>
+    <text x="532" y="297" text-anchor="middle" font-size="16" font-weight="600" fill="#E5E7EB">Vuetify</text>
+    <rect x="589" y="272" width="68" height="38" rx="19" fill="#8B5CF6" fill-opacity="0.10" stroke="url(#lg)" stroke-width="1"/>
+    <text x="623" y="297" text-anchor="middle" font-size="16" font-weight="600" fill="#E5E7EB">Vuex</text>
+    <rect x="669" y="272" width="86" height="38" rx="19" fill="#8B5CF6" fill-opacity="0.10" stroke="url(#lg)" stroke-width="1"/>
+    <text x="712" y="297" text-anchor="middle" font-size="16" font-weight="600" fill="#E5E7EB">Node.js</text>
+    <rect x="767" y="272" width="94" height="38" rx="19" fill="#8B5CF6" fill-opacity="0.10" stroke="url(#lg)" stroke-width="1"/>
+    <text x="814" y="297" text-anchor="middle" font-size="16" font-weight="600" fill="#E5E7EB">Express</text>
+    <rect x="873" y="272" width="100" height="38" rx="19" fill="#8B5CF6" fill-opacity="0.10" stroke="url(#lg)" stroke-width="1"/>
+    <text x="923" y="297" text-anchor="middle" font-size="16" font-weight="600" fill="#E5E7EB">MongoDB</text>
+    <rect x="985" y="272" width="106" height="38" rx="19" fill="#8B5CF6" fill-opacity="0.10" stroke="url(#lg)" stroke-width="1"/>
+    <text x="1038" y="297" text-anchor="middle" font-size="16" font-weight="600" fill="#E5E7EB">Socket.IO</text>
+  </g>
+</svg>
