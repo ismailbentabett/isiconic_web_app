@@ -162,7 +162,7 @@
               Ismail Bentabet
             </v-list-item-title>
             <v-list-item-subtitle
-              >ismailbentabett@gmail.com</v-list-item-subtitle
+              >Signed in</v-list-item-subtitle
             >
           </v-list-item-content>
         </v-list-item>
