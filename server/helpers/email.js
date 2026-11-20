@@ -6,8 +6,8 @@ exports.sendMail = function(req,res){
     port: 465,
     secure: true,  //true for 465 port, false for other ports
     auth: {
-      user: 'email@example.com',
-      pass: 'password'
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS
     }
   });
   const mailOptions = {

@@ -4,7 +4,7 @@ const webPush = require('web-push');
 
 const publicVapidKey = process.env.PUBLIC_VAPID_KEY;
 const privateVapidKey = process.env.PRIVATE_VAPID_KEY;
-webPush.setVapidDetails('mailto:xisben2001x@gmail.com', publicVapidKey, privateVapidKey);
+webPush.setVapidDetails(process.env.VAPID_SUBJECT, publicVapidKey, privateVapidKey);
 
 app.post('/subscribe', (req, res) => {
   const subscription = req.body
