@@ -71,7 +71,7 @@ const isAdminAuth = async (req, res, next) => {
           next();
 
         } else {
-          res.status(403).send('u aint admin nigga')
+          res.status(403).send('Admin access required')
 
         }
       }

@@ -27,7 +27,7 @@ const {followers,followings} = req.body
             runValidators: true
         })
         if (!reciever_save_followers || !follower_save_followings) {
-            return res.status(404).send('yeah u fucked up')
+            return res.status(404).send('User not found')
         }
         charHelper.generateRooms()
         res.status(201).send({
@@ -61,7 +61,7 @@ const {followers,followings} = req.body
             runValidators: true
         })
         if (!reciever_save_followers || !follower_save_followings) {
-            return res.status(404).send('yeah u fucked up')
+            return res.status(404).send('User not found')
         }
         res.status(201).send({
             'reciever_save_followers': reciever_save_followers,
